@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start": "npx lerna run dev",
+    "clean": "npx lerna clean",
+    "build": "npx lerna run build",
+    "test": "npx lerna run test",
+    "publish": "npx lerna publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.4.0"
+  }
+}
